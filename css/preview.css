@@ -1,0 +1,57 @@
+/*----------------  Theme1  -----------------*/
+
+body {
+  background-image: url(../images/bg.png);
+  margin: 0;
+  padding: 0;
+}
+.font,
+h1,
+h2,
+h3,
+h4,
+h5,
+body,
+p,
+.site-title {
+  color: #211d1e;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+a {
+  outline: none!important;
+  text-decoration: none!important;
+}
+
+.theme{
+    float: left;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+   margin-bottom: 30px;
+   padding: 10px;
+}
+.theme h2{
+    text-align: center;
+}
+.theme a{
+    display: block;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease-in-out;
+		-moz-transition: all 300ms ease-in-out;
+        -ms-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+		transition: all 300ms ease-in-out;
+}
+.theme a:hover{
+    margin-top: -10px
+}
+.theme-holder{
+    margin-top: 100px;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.theme{
+    background-color: #363636;
+}

@@ -1,0 +1,111 @@
+
+.nav_wrapper {
+    display: table;
+    list-style-type: none;
+    margin:60px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 333;
+}
+#myslidemenu {
+    float: none;
+    text-align: center;
+}
+nav select {
+    display: none;
+}
+nav {
+    position: relative;
+    z-index: 99;
+}
+.menu select {
+    display: none;
+}
+.nav_wrap .menu {
+    list-style: none outside none;
+    text-align: center;
+}
+.nav_wrap .menu > li > ul {
+    margin-top: 0;
+}
+.menu ul li:hover > ul {
+    display: block;
+}
+.menu ul {
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    z-index: 99;
+}
+.menu > ul > li {
+    display: inline-block;
+    margin-top: 0;
+    position: relative;
+}
+#jqueryslidemenu i {
+    padding-right: 10px;
+}
+.menu > ul > li > a {
+    background-image: url("../images/menu_bg.png");
+    border: 2px solid #fff;
+    color: #ffffff;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+	font-size:15px;
+	line-height:100%;
+}
+.menu > ul > li:hover > a {
+	background:#000;
+	color:#fff;
+	transition: background-color 0.5s ease-out 0s;
+}
+
+.menu > ul > li > a1:last-child {
+    border-right: 0 none;
+}
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 205px;
+}
+.menu ul ul li {
+    border-bottom: 1px solid rgba(127, 127, 127, 0.3);
+    float: none;
+    position: relative;
+}
+.menu ul ul li a {
+    background-color:#333!important;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 8px 25px;
+    text-align: left;
+}
+.menu ul ul li a:hover {
+    color: #fff;
+	text-decoration:none;
+	background:#f54325;
+}
+.menu ul > li:hover > a {
+	background:#labc9c!important;
+}
+.menu ul ul ul {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 140px;
+}
+.menu ul li ul li:last-child, .menu ul li ul li ul li:last-child {
+    background-color: #ccc;
+    border-bottom: medium none !important;
+}
+
+.menu .current{
+	background:#000;
+}

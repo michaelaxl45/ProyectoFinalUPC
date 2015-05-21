@@ -1,0 +1,478 @@
+/******************************************************************
+ 
+	"colors.css" has statements that overrides same named
+	statements in main CSS file -> "style.css".
+
+	You can change colors/patterns on some existing scheme
+	or add your own.
+
+	To apply particular scheme just add names to
+	body tags on all pages. See example:
+
+	<body id="blue" class="pattern3 bg_color">
+
+	You can also change colors in "style.css" directly.
+	In that case you don't need any attributes in body tag, 
+	and also you don't need "colours.css" file at all.
+ 
+******************************************************************/
+
+
+
+/*==========   B O X E D   L A Y O U T   B A C K G R O U N D  ==========*/
+
+.pattern1 { background-image:url("../images/patterns/pattern1.jpg"); }
+.pattern2 { background-image:url("../images/patterns/pattern2.jpg"); }
+.pattern3 { background-image:url("../images/patterns/pattern3.jpg"); }
+.pattern4 { background-image:url("../images/patterns/pattern4.jpg"); }
+.pattern5 { background-image:url("../images/patterns/pattern5.jpg"); }
+.pattern6 { background-image:url("../images/patterns/pattern6.jpg"); }
+.pattern7 { background-image:url("../images/patterns/pattern7.jpg"); }
+.pattern8 { background-image:url("../images/patterns/pattern8.jpg"); }
+.pattern9 { background-image:url("../images/patterns/pattern9.jpg"); }
+
+.wide {
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+
+
+/*==========   C O L O R   S E T T I N G S   ==========*/
+
+
+/**********   B L U E   **********/
+
+#blue #bottom_header {background-color: #33aacc;}			/* Bottom header bg */
+
+#blue a {color: #2299cc;}									/* Link color */
+#blue a.img_hover span {background-color: #2299cc;}			/* Image hover color */
+#blue .item_info:hover {border-bottom-color: #2299cc;}		/* Item border color on hover */
+#blue .btn.default {background-color: #2299cc;}				/* Default color for buttons */
+#blue #rotatescroll .thumb {background-color: #2299cc;}		/* Team Members scroll button */
+
+#blue .service span.colored {background: #33aacc;}			/* Services colored numbers */
+
+#blue .article_meta .divider,
+#blue .error404 ul li span,
+#blue .portfolio_filter li span,
+#blue .pricing_table .featured h1,
+#blue .pricing_table h6,
+#blue .pricing_table_second h3 span {color: #ff4100;}		/* Secondary color */
+
+#blue ul.quotes_buttons li a.selected {background-color: #ff4100;}	/* Testimonials widget buttons */
+#blue blockquote {border-left-color: #ff4100;}						/* Left border of bloxquote */
+#blue article .header .date {background: #ff4100;}					/* Article date bg color */
+
+#blue h4 a:hover, 
+#blue h5 a:hover,
+#blue footer a:hover {color: #ff4100;}						/* Some links color on hover state */
+
+#blue h4 a, 												/* Retain colors from style.css */
+#blue h5 a {color: #444;}
+
+#blue a.btn {color: #fff;}
+
+#blue .article_meta a {color: #aeaeae;}
+#blue .article_data .article_meta a,
+#blue .article_meta a:hover {color: #707070;}
+#blue article .header .comments_num {color: #535557;}
+#blue article .header .comments_num:hover {color: #777;}
+
+#blue #bottom_footer a {color: #bbb;}
+
+#blue ul.tabs li a,
+#blue .toggles_slider li span a {color: #707070;}
+
+#blue .portfolio_filter li a.selected {color: #424648;}
+#blue ul.button_bar .selected {background-color: #b3b5b9;}
+
+
+
+/**********   C Y A N   **********/
+
+#cyan #bottom_header {background-color: #21bbc1;}			/* Bottom header bg */
+
+#cyan a {color: #21bbc1;}									/* Link color */
+#cyan a.img_hover span {background-color: #21bbc1;}			/* Image hover color */
+#cyan .item_info:hover {border-bottom-color: #21bbc1;}		/* Item border color on hover */
+#cyan .btn.default {background-color: #21bbc1;}				/* Default color for buttons */
+#cyan #rotatescroll .thumb {background-color: #21bbc1;}		/* Team Members scroll button */
+
+#cyan .service span.colored {background: #21bbc1;}			/* Services colored numbers */
+
+#cyan .article_meta .divider,
+#cyan .error404 ul li span,
+#cyan .portfolio_filter li span,
+#cyan .pricing_table .featured h1,
+#cyan .pricing_table h6,
+#cyan .pricing_table_second h3 span {color: #ff4100;}		/* Secondary color */
+
+#cyan ul.quotes_buttons li a.selected {background-color: #ff4100;}	/* Testimonials widget buttons */
+#cyan blockquote {border-left-color: #ff4100;}						/* Left border of bloxquote */
+#cyan article .header .date {background: #ff4100;}					/* Article date bg color */
+
+#cyan h4 a:hover, 
+#cyan h5 a:hover,
+#cyan footer a:hover {color: #ff4100;}						/* Some links color on hover state */
+
+#cyan h4 a, 												/* Retain colors from style.css */
+#cyan h5 a {color: #444;}
+
+#cyan a.btn {color: #fff;}
+
+#cyan .article_meta a {color: #aeaeae;}
+#cyan .article_data .article_meta a,
+#cyan .article_meta a:hover {color: #707070;}
+#cyan article .header .comments_num {color: #535557;}
+#cyan article .header .comments_num:hover {color: #777;}
+
+#cyan #bottom_footer a {color: #bbb;}
+
+#cyan ul.tabs li a,
+#cyan .toggles_slider li span a {color: #707070;}
+
+#cyan .portfolio_filter li a.selected {color: #424648;}
+#cyan ul.button_bar .selected {background-color: #b3b5b9;}
+
+
+
+/**********   G R E E N   **********/
+
+#green #bottom_header {background-color: #739e00;}			/* Bottom header bg */
+
+#green a {color: #739e00;}									/* Link color */
+#green a.img_hover span {background-color: #739e00;}		/* Image hover color */
+#green .item_info:hover {border-bottom-color: #739e00;}		/* Item border color on hover */
+#green .btn.default {background-color: #739e00;}			/* Default color for buttons */
+#green #rotatescroll .thumb {background-color: #739e00;}	/* Team Members scroll button */
+
+#green .service span.colored {background: #739e00;}			/* Services colored numbers */
+
+#green .article_meta .divider,
+#green .error404 ul li span,
+#green .portfolio_filter li span,
+#green .pricing_table .featured h1,
+#green .pricing_table h6,
+#green .pricing_table_second h3 span {color: #ff6022;}		/* Secondary color */
+
+#green ul.quotes_buttons li a.selected {background-color: #ff6022;}	/* Testimonials widget buttons */
+#green blockquote {border-left-color: #ff6022;}						/* Left border of bloxquote */
+#green article .header .date {background: #ff6022;}					/* Article date bg color */
+
+#green h4 a:hover, 
+#green h5 a:hover,
+#green footer a:hover {color: #ff6022;}						/* Some links color on hover state */
+
+#green h4 a, 												/* Retain colors from style.css */
+#green h5 a {color: #444;}
+
+#green a.btn {color: #fff;}
+
+#green .article_meta a {color: #aeaeae;}
+#green .article_data .article_meta a,
+#green .article_meta a:hover {color: #707070;}
+#green article .header .comments_num {color: #535557;}
+#green article .header .comments_num:hover {color: #777;}
+
+#green #bottom_footer a {color: #bbb;}
+
+#green ul.tabs li a,
+#green .toggles_slider li span a {color: #707070;}
+
+#green .portfolio_filter li a.selected {color: #424648;}
+#green ul.button_bar .selected {background-color: #b3b5b9;}
+
+
+
+/**********   Y E L L O W   **********/
+
+#yellow #bottom_header {background-color: #ffa700;}			/* Bottom header bg */
+
+#yellow a {color: #ffa700;}									/* Link color */
+#yellow a.img_hover span {background-color: #ffb020;}		/* Image hover color */
+#yellow .item_info:hover {border-bottom-color: #ffb020;}	/* Item border color on hover */
+#yellow .btn.default {background-color: #ffa700;}			/* Default color for buttons */
+#yellow #rotatescroll .thumb {background-color: #ffa700;}	/* Team Members scroll button */
+
+#yellow .service span.colored {background: #ffa700;}		/* Services colored numbers */
+
+#yellow .article_meta .divider,
+#yellow .error404 ul li span,
+#yellow .portfolio_filter li span,
+#yellow .pricing_table .featured h1,
+#yellow .pricing_table h6,
+#yellow .pricing_table_second h3 span {color: #2299cc;}		/* Secondary color */
+
+#yellow ul.quotes_buttons li a.selected {background-color: #2299cc;}	/* Testimonials widget buttons */
+#yellow blockquote {border-left-color: #2299cc;}						/* Left border of bloxquote */
+#yellow article .header .date {background: #2299cc;}					/* Article date bg color */
+
+#yellow h4 a:hover, 
+#yellow h5 a:hover,
+#yellow footer a:hover {color: #2299cc;}					/* Some links color on hover state */
+
+#yellow h4 a, 												/* Retain colors from style.css */
+#yellow h5 a {color: #444;}
+
+#yellow a.btn {color: #fff;}
+
+#yellow .article_meta a {color: #aeaeae;}
+#yellow .article_data .article_meta a,
+#yellow .article_meta a:hover {color: #707070;}
+#yellow article .header .comments_num {color: #535557;}
+#yellow article .header .comments_num:hover {color: #777;}
+
+#yellow #bottom_footer a {color: #bbb;}
+
+#yellow ul.tabs li a,
+#yellow .toggles_slider li span a {color: #707070;}
+
+#yellow .portfolio_filter li a.selected {color: #424648;}
+#yellow ul.button_bar .selected {background-color: #b3b5b9;}
+
+
+
+/**********   O R A N G E   **********/
+
+#orange #bottom_header {background-color: #ff6022;}			/* Bottom header bg */
+
+#orange a {color: #ff6022;}									/* Link color */
+#orange a.img_hover span {background-color: #ff6022;}		/* Image hover color */
+#orange .item_info:hover {border-bottom-color: #ff6022;}	/* Item border color on hover */
+#orange .btn.default {background-color: #ff6022;}			/* Default color for buttons */
+#orange #rotatescroll .thumb {background-color: #ff6022;}	/* Team Members scroll button */
+
+#orange .service span.colored {background: #ff6022;}		/* Services colored numbers */
+
+#orange .article_meta .divider,
+#orange .error404 ul li span,
+#orange .portfolio_filter li span,
+#orange .pricing_table .featured h1,
+#orange .pricing_table h6,
+#orange .pricing_table_second h3 span {color: #2299cc;}		/* Secondary color */
+
+#orange ul.quotes_buttons li a.selected {background-color: #2299cc;}	/* Testimonials widget buttons */
+#orange blockquote {border-left-color: #2299cc;}						/* Left border of bloxquote */
+#orange article .header .date {background: #2299cc;}					/* Article date bg color */
+
+#orange h4 a:hover, 
+#orange h5 a:hover,
+#orange footer a:hover {color: #2299cc;}					/* Some links color on hover state */
+
+#orange h4 a, 												/* Retain colors from style.css */
+#orange h5 a {color: #444;}
+
+#orange a.btn {color: #fff;}
+
+#orange .article_meta a {color: #aeaeae;}
+#orange .article_data .article_meta a,
+#orange .article_meta a:hover {color: #707070;}
+#orange article .header .comments_num {color: #535557;}
+#orange article .header .comments_num:hover {color: #777;}
+
+#orange #bottom_footer a {color: #bbb;}
+
+#orange ul.tabs li a,
+#orange .toggles_slider li span a {color: #707070;}
+
+#orange .portfolio_filter li a.selected {color: #424648;}
+#orange ul.button_bar .selected {background-color: #b3b5b9;}
+
+
+
+/**********   R E D   **********/
+
+#red #bottom_header {background-color: #dc3322;}			/* Bottom header bg */
+
+#red a {color: #dc3322;}									/* Link color */
+#red a.img_hover span {background-color: #dc3322;}			/* Image hover color */
+#red .item_info:hover {border-bottom-color: #dc3322;}		/* Item border color on hover */
+#red .btn.default {background-color: #dc3322;}				/* Default color for buttons */
+#red #rotatescroll .thumb {background-color: #dc3322;}		/* Team Members scroll button */
+
+#red .service span.colored {background: #dc3322;}			/* Services colored numbers */
+
+#red .article_meta .divider,
+#red .error404 ul li span,
+#red .portfolio_filter li span,
+#red .pricing_table .featured h1,
+#red .pricing_table h6,
+#red .pricing_table_second h3 span {color: #2299cc;}		/* Secondary color */
+
+#red ul.quotes_buttons li a.selected {background-color: #2299cc;}	/* Testimonials widget buttons */
+#red blockquote {border-left-color: #2299cc;}						/* Left border of bloxquote */
+#red article .header .date {background: #2299cc;}					/* Article date bg color */
+
+#red h4 a:hover, 
+#red h5 a:hover,
+#red footer a:hover {color: #2299cc;}						/* Some links color on hover state */
+
+#red h4 a, 													/* Retain colors from style.css */
+#red h5 a {color: #444;}
+
+#red a.btn {color: #fff;}
+
+#red .article_meta a {color: #aeaeae;}
+#red .article_data .article_meta a,
+#red .article_meta a:hover {color: #707070;}
+#red article .header .comments_num {color: #535557;}
+#red article .header .comments_num:hover {color: #777;}
+
+#red #bottom_footer a {color: #bbb;}
+
+#red ul.tabs li a,
+#red .toggles_slider li span a {color: #707070;}
+
+#red .portfolio_filter li a.selected {color: #424648;}
+#red ul.button_bar .selected {background-color: #b3b5b9;}
+
+
+
+/**********   P U R P L E   **********/
+
+#purple #bottom_header {background-color: #cb2f5c;}			/* Bottom header bg */
+
+#purple a {color: #cb2f5c;}									/* Link color */
+#purple a.img_hover span {background-color: #cb2f5c;}		/* Image hover color */
+#purple .item_info:hover {border-bottom-color: #cb2f5c;}	/* Item border color on hover */
+#purple .btn.default {background-color: #e02f62;}			/* Default color for buttons */
+#purple #rotatescroll .thumb {background-color: #cb2f5c;}	/* Team Members scroll button */
+
+#purple .service span.colored {background: #cb2f5c;}		/* Services colored numbers */
+
+#purple .article_meta .divider,
+#purple .error404 ul li span,
+#purple .portfolio_filter li span,
+#purple .pricing_table .featured h1,
+#purple .pricing_table h6,
+#purple .pricing_table_second h3 span {color: #2299cc;}		/* Secondary color */
+
+#purple ul.quotes_buttons li a.selected {background-color: #2299cc;}	/* Testimonials widget buttons */
+#purple blockquote {border-left-color: #2299cc;}						/* Left border of bloxquote */
+#purple article .header .date {background: #2299cc;}					/* Article date bg color */
+
+#purple h4 a:hover, 
+#purple h5 a:hover,
+#purple footer a:hover {color: #2299cc;}					/* Some links color on hover state */
+
+#purple h4 a, 												/* Retain colors from style.css */
+#purple h5 a {color: #444;}
+
+#purple a.btn {color: #fff;}
+
+#purple .article_meta a {color: #aeaeae;}
+#purple .article_data .article_meta a,
+#purple .article_meta a:hover {color: #707070;}
+#purple article .header .comments_num {color: #535557;}
+#purple article .header .comments_num:hover {color: #777;}
+
+#purple #bottom_footer a {color: #bbb;}
+
+#purple ul.tabs li a,
+#purple .toggles_slider li span a {color: #707070;}
+
+#purple .portfolio_filter li a.selected {color: #424648;}
+#purple ul.button_bar .selected {background-color: #b3b5b9;}
+
+
+
+/**********   G R E Y   **********/
+
+#grey #bottom_header {background-color: #717377;}			/* Bottom header bg */
+
+#grey a {color: #919397;}									/* Link color */
+#grey a.img_hover span {background-color: #717377;}			/* Image hover color */
+#grey .item_info:hover {border-bottom-color: #717377;}		/* Item border color on hover */
+#grey .btn.default {background-color: #818387;}				/* Default color for buttons */
+#grey #rotatescroll .thumb {background-color: #818387;}		/* Team Members scroll button */
+
+#grey .service span.colored {background: #b1b3b7;}			/* Services colored numbers */
+
+#grey .article_meta .divider,
+#grey .error404 ul li span,
+#grey .portfolio_filter li span,
+#grey .pricing_table .featured h1,
+#grey .pricing_table h6,
+#grey .pricing_table_second h3 span {color: #717377;}		/* Secondary color */
+
+#grey ul.quotes_buttons li a.selected {background-color: #717377;}	/* Testimonials widget buttons */
+#grey blockquote {border-left-color: #919397;}						/* Left border of bloxquote */
+#grey article .header .date {background: #919397;}					/* Article date bg color */
+
+#grey h4 a:hover, 
+#grey h5 a:hover,
+#grey footer a:hover {color: #717377;}						/* Some links color on hover state */
+
+#grey h4 a, 												/* Retain colors from style.css */
+#grey h5 a {color: #444;}
+
+#grey a.btn {color: #fff;}
+
+#grey .article_meta a {color: #aeaeae;}
+#grey .article_data .article_meta a,
+#grey .article_meta a:hover {color: #707070;}
+#grey article .header .comments_num {color: #535557;}
+#grey article .header .comments_num:hover {color: #777;}
+
+#grey #bottom_footer a {color: #bbb;}
+
+#grey ul.tabs li a,
+#grey .toggles_slider li span a {color: #707070;}
+
+#grey .portfolio_filter li a.selected {color: #424648;}
+#grey ul.button_bar .selected {background-color: #b3b5b9;}
+
+
+
+/**********   B L A C K   **********/
+
+#black #bottom_header {background-color: #404246;}			/* Bottom header bg */
+
+#black a {color: #404246;}									/* Link color */
+#black a.img_hover span {background-color: #404246;}		/* Image hover color */
+#black .item_info:hover {border-bottom-color: #404246;}		/* Item border color on hover */
+#black .btn.default {background-color: #404246;}			/* Default color for buttons */
+#black #rotatescroll .thumb {background-color: #dc3322;}	/* Team Members scroll button */
+
+#black .service span.colored {background: #404246;}			/* Services colored numbers */
+
+#black .article_meta .divider,
+#black .error404 ul li span,
+#black .portfolio_filter li span,
+#black .pricing_table .featured h1,
+#black .pricing_table h6,
+#black .pricing_table_second h3 span {color: #dc3322;}		/* Secondary color */
+
+#black ul.quotes_buttons li a.selected {background-color: #dc3322;}	/* Testimonials widget buttons */
+#black blockquote {border-left-color: #dc3322;}						/* Left border of bloxquote */
+#black article .header .date {background: #dc3322;}					/* Article date bg color */
+
+#black h4 a:hover, 
+#black h5 a:hover,
+#black footer a:hover {color: #dc3322;}						/* Some links color on hover state */
+
+#black h4 a, 												/* Retain colors from style.css */
+#black h5 a {color: #444;}
+
+#black a.btn {color: #fff;}
+
+#black .article_meta a {color: #aeaeae;}
+#black .article_data .article_meta a,
+#black .article_meta a:hover {color: #707070;}
+#black article .header .comments_num {color: #535557;}
+#black article .header .comments_num:hover {color: #777;}
+
+#black #bottom_footer a {color: #bbb;}
+
+#black ul.tabs li a,
+#black .toggles_slider li span a {color: #707070;}
+
+#black .portfolio_filter li a.selected {color: #dc3322;}
+#black ul.button_bar .selected {background-color: #b3b5b9;}
+

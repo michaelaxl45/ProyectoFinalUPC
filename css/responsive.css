@@ -1,0 +1,161 @@
+@media only screen and (min-width: 1024px) and (max-width: 1152px) {
+
+
+}
+
+
+/* Tablet (Portrait) */
+/* Width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+#container{
+    width: 700px;
+ }
+
+ul.foodmenu li{
+	margin-bottom:30px;
+}
+ul.foodmenu li span.menu_item_price{
+	font-size:18px;
+}
+.intro-text h1{
+    font-size: 4em;
+}
+
+footer{
+    position: relative;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer ul{
+    text-align: center;
+}
+.cpt .one-third, .cpt .one-third-last{
+	width:100%;
+	margin-bottom:30px;
+}
+.daily-special .one-half, .daily-special .one-half-last{
+	width:100%;
+	margin-bottom:30px;
+}
+form .one-half, form .one-half-last{
+	width:48.10%!important;
+}
+.tabularmenu .one-third, .tabularmenu .one-third-last{
+	width:100%;
+	margin-bottom:30px;
+	}
+ul.portfolio_items li {
+	width:31.2%;
+}
+.contact .two-third, .contact .one-third-last{
+	width:100%;
+	margin-bottom:30px;
+}
+form .one-third-last{
+	width:30.80%!important;
+}
+#contact-form p #submit,  #contact-form p #reset {
+    width: 12%!important;
+	float:left;
+	margin:18px 12px 26px 0px;
+}
+}
+
+
+/* Mobile landscape width 320 */
+@media only screen and (max-width: 767px) {
+
+#container{
+    width:280px;
+}
+
+#logo h1{
+font-size: 80px;
+}
+
+.intro-text h2{
+    font-size: 2em;
+}
+
+.intro-text h1{
+    font-size: 4em;
+}
+
+footer{
+    position: relative;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer ul{
+    text-align: center;
+}
+
+
+nav .menu select {
+    background-color: #e4e4e4;
+    border: 1px solid #ffffff;
+    display: block;
+    height: 30px;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    width:80%;
+}
+
+
+ul.menu li{
+    display: none;
+}
+
+ul.portfolio_items li{
+    margin-bottom: 5%;
+   width: 100%;
+}
+
+.filter ul li{
+    margin-bottom: 10px;
+}
+.right_sidebar .page_sidebar {
+    border-left: none;
+    padding-left:0;
+ }
+ span.meta_desc span {
+    padding: 0px;
+ }
+ 
+ .meta_desc {
+	 padding:9px;
+ }
+ #contact-form input, #contact-form textarea{
+	width:66%!important;
+}
+.filter ul li {
+    width: 100%;
+	margin-bottom:1px!important;
+
+}
+#filter ul li a {
+	display:block!important;
+	text-align:center;
+} 
+
+/* Columns
+----------------------------------------------------------------------------------------------------*/
+.one-half, .one-half-last, .one-third, .one-third-last, .two-third, .two-third-last, .one-fourth, .one-fourth-last, .two-fourth, .two-fourth-last, .three-fourth, .three-fourth-last, .one-fifth, .one-fifth-last, .two-fifth, .two-fifth-last, .three-fifth, .three-fifth-last, .four-fifth, .four-fifth-last{
+width: 100%;
+margin-bottom:30px;
+}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#container{
+    width: 480px;
+}
+}

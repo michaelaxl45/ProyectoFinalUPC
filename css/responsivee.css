@@ -1,0 +1,221 @@
+/*==================================================
+Author: http://themeforest.net/user/navigator
+Only At: ThemeForest.net
+
+
+	* * * CONTENTS * * *
+
+	0. Media screen up to 980 px
+	
+	1. Media screen up to 810 px
+	
+	2. Media screen up to 680 px
+
+	3. Table Columns and Small Fixes
+	
+==================================================*/
+
+
+/*------------------------------------------------
+    0. Media screen up to 980 px
+------------------------------------------------*/
+
+@media screen and (max-width: 980px) {
+
+	div#boxed {width: 100%;}
+
+	.wrap {width: 94%;}
+
+	.content {width: 64%;}
+
+	aside {width: 30%;}
+
+	aside.left {
+	    margin-right: 3%;
+	    padding-right: 3%;
+	}
+
+	aside.right {
+	    margin-left: 3%;
+	    padding-left: 3%;
+	}
+
+	#middle_header .highlight {line-height: 36px;}
+	.roundabout {display: none;}
+
+	article .content {width: 100%;}
+
+	.related_articles .third.last {margin-right: 0%;}
+	.related_articles .third img {width: 100%; height: auto;}
+}
+
+
+/*------------------------------------------------
+    1. Media screen up to 810 px 
+------------------------------------------------*/
+
+@media screen and (max-width: 810px) {
+
+	.article_thumb {display: none;}
+	.article_data {margin: 0px;}
+
+	article ul.share_icons {
+		float: left;
+		margin: 5px 0px 10px -5px;
+	}
+
+	article a.btn.right {float: none;}
+
+	#map {height: 220px;}
+}
+
+
+/*------------------------------------------------
+    2. Media screen up to 680 px
+------------------------------------------------*/
+
+@media screen and (max-width: 680px) {
+
+	.wrap {width: 92%;}
+
+	.content {width: 100%;}
+
+	aside {width: 100%;}
+
+	aside.left,
+	aside.right {
+	    float:none;
+	    margin: 0px;
+	    padding: 0px;
+	}
+
+	.article_thumb {display: block;}
+	.article_data {margin-left: 50px;}
+
+	.js #top_nav {display: none;}
+	.js .selectnav {display: block;}
+
+	#middle_header .wrap {padding-bottom: 30px;}
+
+	#middle_header h1 {
+		padding: 20px 20px 5px 20px;
+	    line-height: 36px;
+	    font-size: 28px;
+	}
+	
+	#middle_header .highlight {
+		padding: 3px 6px 4px;
+	    line-height: 26px;
+	    font-size: 14px;
+	}
+
+	.half, .third, .fifth, .sixth, 
+	.two_third, .three_fourth {width: 100%; margin-bottom: 25px;}
+
+	.half.fix_responsive {margin-bottom: 25px;}
+
+	.fourth {width: 47%; margin-right: 6%;}
+	.fourth:nth-of-type(2n):not(.last):not(.fix_responsive) {margin: 0px 0px 25px 0px;}
+
+	.full_responsive {width: 100%;}
+	.last {margin: 0px;}
+
+	#subscribe input[type="text"] {width: 130px;}
+
+	#middle_footer .blogroll,
+	#middle_footer .our_address {display: none;}
+	#middle_footer .col {width: 100%;}
+	#middle_footer .follow {margin-bottom: 25px;}
+
+	#bottom_footer img {display: none;}
+	#bottom_footer ul#social_networks {
+		margin: 0px; 
+		padding: 0px;
+	}
+
+	#to_top {margin-top: 0px;}
+	#bottom_footer span {display: none;}
+
+	.service {margin: 15px 0px 0px 0px;}
+
+	.button_bar {margin-bottom: 30px; overflow: hidden;}
+
+	.related_articles .third {
+		width: 30%;
+		margin: 0 5% 0 0;
+	}
+
+	.portfolio_content.col2,
+	.portfolio_content.col3,
+	.portfolio_content.col4 {background: none;}
+
+	.portfolio_content li.item {
+		width: 100%;
+		height: auto;
+		margin-bottom: 25px;
+    	padding-bottom: 25px;
+	}
+	.portfolio_content li.item a img {width: 100%; height: auto;}
+
+	#contact {margin-bottom: 30px;}
+	#contact fieldset.third {margin: 0px 0px 5px;}
+	#contact input[type=text],
+	#contact textarea {width: 90%;}
+}
+
+
+/*------------------------------------------------
+    3. Table Columns and Small Fixes
+------------------------------------------------*/
+
+@media screen and (max-width: 950px) {
+	table th:nth-child(7),
+	table td:nth-child(7) {display: none;}
+}
+
+@media screen and (max-width: 810px) {
+	table th:nth-child(6),
+	table td:nth-child(6) {display: none;}
+}
+
+@media screen and (max-width: 680px) {
+	table th:nth-child(6),
+	table td:nth-child(6),
+	table th:nth-child(7),
+	table td:nth-child(7) {display: table-cell;}
+}
+
+@media screen and (max-width: 600px) {
+	table th:nth-child(7),
+	table td:nth-child(7) {display: none;}
+}
+
+@media screen and (max-width: 510px) {
+	table th:nth-child(6),
+	table td:nth-child(6) {display: none;}
+}
+
+@media screen and (max-width: 420px) {
+	table th:nth-child(5),
+	table td:nth-child(5) {display: none;}
+}
+
+@media screen and (max-width: 340px) {
+	table th:nth-child(4),
+	table td:nth-child(4) {display: none;}
+
+	#top_header {height: 70px;}
+
+	#logo {
+		float: none;
+		margin: 0px auto 15px auto;
+	}
+	
+	nav {
+		float: none;
+		width: 170px;
+		margin: 0px auto;
+	}
+	
+	.fourth {width: 100%; margin-bottom: 25px;}
+}
