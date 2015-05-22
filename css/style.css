@@ -117,7 +117,7 @@ header .logo a img {
     height: 100%;
     opacity: 0.4;
     z-index: -1;
-    background: url('../img/administrador.jpg') center center;
+    background: url('../images/administrador.jpg') center center;
     background-size: cover;
 }
 
@@ -147,7 +147,7 @@ font-weight: bold;
     height: 100%;
     opacity: 0.4;
     z-index: -1;
-    background: url('../img/restaurante.png') center center;
+    background: url('../images/restaurante.png') center center;
     background-size: cover;
 }
 .main1-title {
