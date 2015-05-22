@@ -23,7 +23,8 @@
            <a class="pp_next" href="#">next</a> \
            <a class="pp_previous" href="#">previous</a> \
           </div> \
-          <div id="pp_full_res"></div> \
+          <div id="pp_full_res">\
+          </div> \
           <div class="pp_details"> \
            <div class="pp_nav"> \
             <a href="#" class="pp_arrow_previous">Previous</a> \
