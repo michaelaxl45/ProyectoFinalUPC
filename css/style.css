@@ -99,3 +99,81 @@ header .logo a img {
 .main .main-text h1 {
     font-size: 2em;
 } 
+
+
+.main1 {
+    position: relative;
+    z-index: 1;
+    height: 750px;
+    margin:0px;
+    padding: 0px;
+}
+.main1:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    background: url('../img/administrador.jpg') center center;
+    background-size: cover;
+}
+
+.main1-text {
+    position: absolute;
+    top: 350px;
+    left: 580px;
+font-weight: 550;
+
+     
+}
+.main2 {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+text-align: center;
+font-weight: bold;
+ color: #BA7272;
+}
+
+.mains:before {
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    background: url('../img/restaurante.png') center center;
+    background-size: cover;
+}
+.main1-title {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    font-size: 18px;
+text-shadow: 1px 1px white, -1px -1px #333;
+     
+}
+
+
+.main2 .tabla {
+   border-width: 8px;
+margin: auto;
+   text-align: center	
+}
+
+
+C {
+    color: #BA7272;
+    font-size: 15px;
+
+	
+}
+
+
+
+
