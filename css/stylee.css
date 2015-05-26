@@ -2118,3 +2118,11 @@ ul#social_networks li a.network6 {background: url("../images/social_networks.png
             transition: opacity 0.3s ease;
     cursor: pointer;
 }
+body t {
+    color: white;
+    font-size: 25px;
+    text-shadow: 0px 0px white, -2px -2px #333;
+    font-weight: bold;
+
+	
+}
